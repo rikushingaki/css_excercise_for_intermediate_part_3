@@ -11,7 +11,6 @@ body {
   margin: 20px auto;
   max-width: 700px;
 }
-
 /**
  * 各記事を表すclass属性値が `post` のスタイルを定義する
  *
@@ -25,8 +24,6 @@ body {
    margin-bottom: 20px;
    border: 1px dashed #2c3e50;
  }
-
-
 /**
  * 各記事の日付を表すclass属性値が `date` のスタイルを定義する
  *
@@ -34,14 +31,11 @@ body {
  *  - 文字サイズ: 1.1em
  *  - 左にパッディング5pxをセットする
  */
- .data {
+ .date {
    color: #3298db;
    font-size: 1.1em;
    padding-left: 5px;
-
  }
-
-
 /**
  * 記事内で強調したい文字のスタイルを定義する。 class属性値は `keyword`
  *
@@ -56,10 +50,8 @@ body {
    font-size: 1.2em;
    text-decoration: underline;
    color: #ff0000;
-   margin: 0px 5px;
+   margin: 0 5px;
  }
-
-
 /**
  * 例(引用文)を表示するためのスタイルを定義する。class属性値は `example`
  *
@@ -75,8 +67,6 @@ body {
    padding-left: 5px;
    margin-left: 5px;
  }
-
-
 /**
  * 記事の見出し(h2要素)のスタイルを定義する。
  *
@@ -88,12 +78,11 @@ body {
  */
  h2 {
    font-size: 1.8em;
-   font-weight:bold;
+   font-weight: bold;
    background-color: #2c3e50;
    color: #ffffff;
    padding: 5px;
  }
-
 /**
  * 記事の小見出し(h3要素)のスタイルを定義する。
  *
@@ -111,8 +100,6 @@ body {
    border-bottom: 1px solid #2c3e50;
    padding-left: 5px;
  }
-
-
 /**
  * 記事内のテキスト(p要素)のスタイルを定義する。
  *
